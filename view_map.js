@@ -1,3 +1,16 @@
+/*
+This is sample from one of my projects as a freelancer
+This code allows user to create a geofence by specifying coordinates ,radius and message associated with Geofence
+First the User login is Verified . Upon successful verification the user is able to view the map
+And point to the Coordinates and specify radius and message for the GeoFence.
+After the validations these values are sent to server through an ajax request.
+Where the record corresponding to the Geofence is created in Geofence.
+If the record is created then based on response of the request a circle is drawn to signify that geofence is created
+Also a message is also displayed corresponding to status of request.
+
+user can also Edit/delete the geofence by clicking on geofence using the similar process mentioned above
+API Used: Goolge Maps API, Toastr API
+*/
 var latitude;
 var longitude;
 var radius;
