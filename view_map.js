@@ -375,7 +375,7 @@ return true;
 function codeAddress()
 {
  var address=document.getElementById("gctext").value;
- var image="http://accio-circle.com/images/pin2.png";
+ var image="images/pin2.png";
  geocoder.geocode({'address':address}, function (result,gstatus){
   if(gstatus==google.maps.GeocoderStatus.OK)
   { 
